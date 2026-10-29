@@ -1,0 +1,21 @@
+[project]
+name = "hiremeai"
+version = "0.1.0"
+description = "AI Candidate Digital Twin & Structured Resume Intelligence Engine"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Anshul Dikshit" }
+]
+
+dependencies = [
+    "fastapi>=0.115.0",
+    "groq>=1.6.0",
+    "pydantic>=2.9.0",
+    "pypdf>=5.0.0",
+    "python-docx>=1.1.0",
+    "python-dotenv>=1.0.0",
+    "python-multipart>=0.0.9",
+    "uvicorn>=0.30.0",
+]
+
